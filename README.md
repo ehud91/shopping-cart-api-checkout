@@ -1,11 +1,10 @@
 
 
-# Project: Idea-System-App
+# Project: Shopping-cart-checout API
 
 ## Description
 
-The project is a backend Rest-API for inserting / updating / Deleting ideas.
-You must register and log in to use the service.
+The project is a backend Rest-API for inserting checkout form.
 
 ## Project components
 - [Node js](https://nodejs.org/)
@@ -30,10 +29,10 @@ To install [MongoDB](https://www.mongodb.com/) on your machine:
 
 To install the application, please run:
 
-- On your machine, go to your projects path, and create new folder with the project name: `idea-system-app`
+- On your machine, go to your projects path, and create new folder with the project name: `shopping-cart-api-checkout`
 - Go (```cd /~path/projects/project-name/```) to your project folder path 
-- Clone the application `idea-system-app` from [github](https://github.com/ehud91/idea-system.git) to your machine
-- Go to (`cd /folder-name`) to the project `idea-system-app`
+- Clone the application `shopping-cart-api-checkout` from [github](https://github.com/ehud91/shopping-cart-api-checkout.git) to your machine
+- Go to (`cd /folder-name`) to the project `shopping-cart-api-checkout`
 
 ```bash
 $ npm install
@@ -94,13 +93,13 @@ mongosh --port 27017
 - Build the docker image:
 
 ```bash
-docker build -t idea-system .
+docker build -t shopping-cart-api-checkout .
 ```
 
 - Run the docker container:
 
 ```bash
-docker run -p 3000:3000 idea-system
+docker run -p 3000:3000 shopping-cart-api-checkout
 ```
 
 - Verify that the application is running:
@@ -108,14 +107,14 @@ docker run -p 3000:3000 idea-system
   Open your web browser or use like `curl` to verify that the application is runnin correctly:
 
 ```bash
-http://localhost:3000/
+http://localhost:3001/
 ```
 
 - Go play with the Swagger API via browser: 
 
 
 ```bash
-http://localhost:3000/api-info/
+http://localhost:3001/api-info/
 ```
 
 
